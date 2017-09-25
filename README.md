@@ -9,3 +9,8 @@
 * LifeCycle---使用介绍(先看代码注释)
 
 
+* UseScrollView---效果图---[使用介绍]()
+
+<img src="https://github.com/azhon/ReactNative/blob/master/images/view_pager.png" width="350">
+
+
