@@ -11,6 +11,6 @@
 
 * UseScrollView---效果图---[使用介绍]()
 
-<img src="https://github.com/azhon/ReactNative/blob/master/images/view_pager.png" width="350">
+<img src="https://github.com/azhon/ReactNative/blob/master/images/view_pager.gif" width="350">
 
 
