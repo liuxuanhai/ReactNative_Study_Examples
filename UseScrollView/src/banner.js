@@ -32,7 +32,7 @@ class Banner extends Component {
 
     static defaultProps = {
         //定时器的间隔时间
-        duration: 1500
+        duration: 1000
 
     };
 
@@ -41,7 +41,6 @@ class Banner extends Component {
         this.state = {
             //当前显示的下标
             position: 0,
-
         }
     }
 
@@ -76,18 +75,17 @@ class Banner extends Component {
             <View style={styles.container}>
                 <ScrollView
                     ref="scrollView"
-                    horizontal={true}//自动分页
+                    horizontal={true}
                     showsHorizontalScrollIndicator={false}
-                    pagingEnabled={true}
-                    //不能拖动
-                    scrollEnabled={false}
+                    pagingEnabled={true}//自动分页
                     //滚动动画结束时调用此函数。一帧滚动结束
-                    onMomentumScrollEnd={(v) => this.onAnimationEnd(v)}>
+                    onMomentumScrollEnd={(v) => this.onAnimationEnd(v)}
+                    //手指按下的时候，停止计时器
+                    onTouchStart={() => clearInterval(this.timer)}>
 
                     {/*显示轮播图的图片内容*/}
                     {this.getImages()}
                 </ScrollView>
-
                 {/*生成底部的圆点指示器*/}
                 <View style={styles.indicator}>
                     {this.getIndicators()}
@@ -132,6 +130,12 @@ class Banner extends Component {
         this.setState({
             position: position
         });
+        this.startTimer();
+    }
+
+    //结束计时器
+    componentWillUnmount(nextProps, nextState) {
+        clearInterval(this.timer);
     }
 }
 

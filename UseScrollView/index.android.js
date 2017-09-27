@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 
 var Banner = require('./src/banner');
+
 export default class UseScrollView extends Component {
     render() {
         return (
@@ -28,7 +29,6 @@ export default class UseScrollView extends Component {
                     </Text>
                 </View>
             </View>
-
         );
     }
 }

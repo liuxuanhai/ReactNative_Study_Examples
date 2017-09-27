@@ -17,21 +17,19 @@ var dimensions = require('Dimensions');
 //获取屏幕的宽度和高度
 var {width} = dimensions.get('window');
 
+/**
+ * horizontal={true} 横向滑动
+ *
+ * showsHorizontalScrollIndicator 当此属性为true的时候，显示一个水平方向的滚动条。
+ *
+ * pagingEnabled 当值为true时，滚动条会停在滚动视图的尺寸的整数倍位置。这个可以用在水平分页上。默认值为false。
+ *
+ * scrollEnabled 当值为false的时候，内容不能滚动，默认值为true
+ */
 class ScrollTest extends Component {
     render() {
         return (
-            /**
-             * horizontal={true} 横向滑动
-             *
-             * showsHorizontalScrollIndicator 当此属性为true的时候，显示一个水平方向的滚动条。
-             *
-             * pagingEnabled 当值为true时，滚动条会停在滚动视图的尺寸的整数倍位置。这个可以用在水平分页上。默认值为false。
-             *
-             * scrollEnabled 当值为false的时候，内容不能滚动，默认值为true
-             */
-            <ScrollView horizontal={true}
-                        showsHorizontalScrollIndicator={false}
-                        pagingEnable={true}>
+            <ScrollView>
                 {this.getView()}
             </ScrollView>
         );
@@ -51,10 +49,7 @@ class ScrollTest extends Component {
                     width: width,
                     height: 180
                 }}>
-                    <Text
-                        style={{color: 'white'}}>
-                        第{i}个文本
-                    </Text>
+                    <Text style={{color: 'white'}}>第{i + 1}个文本</Text>
                 </View>
             );
         }
