@@ -6,7 +6,7 @@
 
 <img src="https://github.com/azhon/ReactNative/blob/master/images/qq_login.png" width="600">
 
-* LifeCycle---使用介绍(先看代码注释)
+* LifeCycle---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78113370)
 
 
 * UseScrollView---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78118091)
