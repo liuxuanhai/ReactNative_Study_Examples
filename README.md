@@ -17,7 +17,7 @@
 
 <img src="https://github.com/azhon/ReactNative/blob/master/images/listview.gif" width="350">
 
-* Pagejump---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78137936)
+* Pagejump---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78195498)
 
 <img src="https://github.com/azhon/ReactNative/blob/master/images/page_jump.gif" width="350">
 
