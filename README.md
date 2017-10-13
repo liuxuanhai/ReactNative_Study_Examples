@@ -27,7 +27,7 @@
 
 <img src="http://img.blog.csdn.net/20171013172324930" width="350">
 
-## 以下项目基于react-native v0.49版本 [node_modulesv0.49.3.zip下载]()
+## 以下项目基于react-native v0.49版本 [node_modulesv0.49.3.zip下载](http://pan.baidu.com/s/1qYC2KWG)
 
 * TabNavigator---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78228667)
 
