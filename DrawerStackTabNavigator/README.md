@@ -16,4 +16,7 @@
             screen: Invite,
         },
   ```
-    
+  
+#### 效果图：
+<img src="http://img.blog.csdn.net/20171014191729436" width="600">
+
