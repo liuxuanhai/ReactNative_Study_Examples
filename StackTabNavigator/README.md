@@ -1,5 +1,4 @@
-#### StackTabNavigator
-#### 将StackNavigator和TabNavigator结合使用的一个案例
+#### 关于StackNavigator、TabNavigator、DrawerNavigator三个同时使用注意事项： 
+* 嵌套顺序为
 
-<img src="http://img.blog.csdn.net/20171014132434825">&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://img.blog.csdn.net/20171014135041556">
-
+DrawerNavigator -> StackNavigator -> TabNavigator
