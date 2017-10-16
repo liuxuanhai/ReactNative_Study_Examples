@@ -43,4 +43,9 @@
 
 <img src="http://img.blog.csdn.net/20171014191729436" width="600">
 
+* InteractsWithAndroid---效果图---ReactNative调用Android原生代码
+
+<img src="http://img.blog.csdn.net/20171016220804142" width="300">
+
+
 
