@@ -17,6 +17,7 @@ import {
     View,
     TouchableOpacity,
     NativeModules,
+    DeviceEventEmitter,
 } from 'react-native';
 
 /**
@@ -42,8 +43,22 @@ export default class App extends Component<{}> {
                                   onPress={() => this.sum()}>
                     <Text style={{color: 'white'}}>回调函数</Text>
                 </TouchableOpacity>
+
+                <TouchableOpacity style={[styles.button, {marginTop: 10}]} activeOpacity={0.5}
+                                  onPress={() => this.send()}>
+                    <Text style={{color: 'white', textAlign: 'center'}}>Android往Rn发送事件</Text>
+                </TouchableOpacity>
             </View>
         );
+    }
+
+    componentWillMount() {
+        console.log(Platform.OS);
+        DeviceEventEmitter.addListener('测试事件', function (e: Event) {
+            Android.showToast(e['NAME']);
+            // console.log(e);
+            // console.log(e['NAME']);
+        });
     }
 
     toast() {
@@ -58,6 +73,10 @@ export default class App extends Component<{}> {
         Android.haveCallback(10, 45, (sum) => {
             Android.showToast('结果为：' + sum);
         });
+    }
+
+    send() {
+        Android.sendEvent()
     }
 
     /**

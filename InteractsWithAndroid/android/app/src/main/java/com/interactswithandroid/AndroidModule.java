@@ -1,14 +1,16 @@
 package com.interactswithandroid;
 
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.widget.Toast;
 
+import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
+import com.facebook.react.bridge.WritableMap;
+import com.facebook.react.modules.core.DeviceEventManagerModule;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,7 +25,7 @@ import java.util.Map;
  */
 public class AndroidModule extends ReactContextBaseJavaModule {
 
-    private Context context;
+    private ReactApplicationContext context;
 
     public AndroidModule(ReactApplicationContext reactContext) {
         super(reactContext);
@@ -71,4 +73,17 @@ public class AndroidModule extends ReactContextBaseJavaModule {
     public void showToast(String msg) {
         Toast.makeText(context, msg, Toast.LENGTH_SHORT).show();
     }
+
+    @ReactMethod
+    public void sendEvent() {
+        sendEvent("测试事件");
+    }
+
+    private void sendEvent(String eventName) {
+        WritableMap params = Arguments.createMap();
+        params.putString("NAME", "阿钟");
+        context.getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
+                .emit(eventName, params);
+    }
+
 }
