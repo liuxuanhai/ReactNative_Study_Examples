@@ -1,7 +1,7 @@
 ### How to use ?
 
 **点击这里[Wiki](https://github.com/azhon/ReactNative/wiki)**
-
+### [CSDN博客专栏链接点我](http://blog.csdn.net/column/details/17709.html)
 **由于在2017年10月11日 ReactNative将版本更新至了v0.49导致有些东西无法使用，所以这里提供了v0.48版本的[node_module](http://pan.baidu.com/s/1c2D7eiW)依赖库下载。**
 
 **下载好后将node_module拷贝至项目根目录即可**
