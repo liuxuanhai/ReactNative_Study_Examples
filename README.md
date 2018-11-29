@@ -10,14 +10,14 @@
 
 * QQLoginPage---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78040711)
 
-<img src="http://img.blog.csdn.net/20170920111311064" width="600">
+<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20170918162505881.png" width="600">
 
 * LifeCycle---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78113370)
 
 
 * UseScrollView---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78118091)
 
-<img src="http://img.blog.csdn.net/20171013172147345" width="350">
+<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20170927170653819.gif" width="350">
 
 * UseListView---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78137936)
 
@@ -25,7 +25,7 @@
 
 * Pagejump---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78195498)
 
-<img src="http://img.blog.csdn.net/20171013172324930" width="350">
+<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171010165955532.gif" width="350">
 
 ---
 
@@ -33,11 +33,11 @@
 
 * TabNavigator---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78228667)
 
-<img src="http://img.blog.csdn.net/20171013160758103" width="300" height="500">&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://img.blog.csdn.net/20171013160907556" width="300" height="500">
+<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171013160758103.png" width="300" height="500">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171013160907556.png" width="300" height="500">
 
 * StackTabNavigator---效果图---将StackNavigator和TabNavigator结合使用的一个案例
 
-<img src="http://img.blog.csdn.net/20171014132434825">&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://img.blog.csdn.net/20171014135041556">
+<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171014132434825">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171014135041556.png">
 
 * DrawerStackTabNavigator---效果图---将StackNavigator、DrawerNavigator和TabNavigator结合使用的一个案例
 
@@ -45,10 +45,10 @@
 
 * InteractsWithAndroid---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78255146)
 
-<img src="http://img.blog.csdn.net/20171016220804142" width="300">
+<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171016202912674.gif" width="300">
 
 * UseFlatList---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78365100)
 
- <img src="http://img.blog.csdn.net/20171025170146617" width="300">
+ <img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171025170146617.gif" width="300">
 
 
