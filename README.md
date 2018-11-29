@@ -37,7 +37,7 @@
 
 * StackTabNavigator---效果图---将StackNavigator和TabNavigator结合使用的一个案例
 
-<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171014132434825">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171014135041556.png">
+<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171014132434825.gif">&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171014135041556.gif">
 
 * DrawerStackTabNavigator---效果图---将StackNavigator、DrawerNavigator和TabNavigator结合使用的一个案例
 
