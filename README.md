@@ -41,7 +41,7 @@
 
 * DrawerStackTabNavigator---效果图---将StackNavigator、DrawerNavigator和TabNavigator结合使用的一个案例
 
-<img src="http://img.blog.csdn.net/20171014191729436" width="600">
+<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171014191729436.png" width="600">
 
 * InteractsWithAndroid---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78255146)
 
