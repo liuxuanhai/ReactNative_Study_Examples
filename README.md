@@ -10,7 +10,7 @@
 
 * QQLoginPage---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78040711)
 
-<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20170918162505881.png" width="600">
+<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20170918162505881.png" width="300">
 
 * LifeCycle---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78113370)
 
@@ -25,7 +25,7 @@
 
 * Pagejump---效果图---[使用介绍](http://blog.csdn.net/a_zhon/article/details/78195498)
 
-<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171010165955532.gif" width="350">
+<img src="https://github.com/azhon/ReactNative/blob/master/effectImage/20171010165955532.gif" width="450">
 
 ---
 
